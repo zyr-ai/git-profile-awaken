@@ -103,6 +103,7 @@ export const THEME_PACKS: { name: string; ids: string[] }[] = [
   { name: 'Cultivation', ids: ['jade_sect', 'crimson_sect', 'celestial_gold', 'ink_wash'] },
   { name: 'Editor', ids: ['cyberpunk', 'dracula', 'tokyonight', 'monokai', 'gruvbox', 'nord', 'synthwave', 'matrix'] },
   { name: 'Games', ids: ['hollow_knight', 'genshin_anemo', 'genshin_geo', 'genshin_electro', 'elden_ring', 'nier', 'bloodborne', 'valorant', 'hextech', 'retrowave', 'abyssal', 'infernal'] },
+  { name: 'GitHub', ids: ['github_native'] },
 ];
 
 export const THEMES: Theme[] = [
@@ -142,6 +143,9 @@ export const THEMES: Theme[] = [
   fromSeed('retrowave', 'Retrowave', seed('#190724', '#220a33', '#ffe6ff', '#a472ba', '#05d9e8', '#4d206b')),
   fromSeed('abyssal', 'Abyssal', seed('#030b14', '#06121f', '#c2d1e0', '#42678c', '#00b4d8', '#132b45')),
   fromSeed('infernal', 'Infernal', seed('#120404', '#1a0808', '#ffcccc', '#994c4c', '#ff3333', '#3d1414')),
+  /* GitHub Primer palette — the real colors behind github.com. */
+  fromSeed('github_native', 'GitHub', seed('#0d1117', '#161b22', '#e6edf3', '#8b949e', '#58a6ff', '#30363d'),
+    seed('#f6f8fa', '#ffffff', '#1f2328', '#656d76', '#0969da', '#d0d7de')),
   // Cultivation pack (Tu Tiên): jade, blood, celestial gold and ink wash. Rank colors stay the System's.
   fromSeed('jade_sect', 'Jade Sect', seed('#04110d', '#08201a', '#e8f6ef', '#8fbcaa', '#3fd6a3', '#2f8a6f'),
     seed('#f1f8f4', '#ffffff', '#0b2a20', '#466a5c', '#12805c', '#8fc4b0')),
